@@ -100,3 +100,5 @@ kill -9 $(ps aux | grep '[b]ootRun' | awk '{print $2}')
 - 여러 스레드가 동시에 출금 시 최종 잔액 검증
 - 여러 스레드가 동시에 송금 시 최종 잔액 및 수수료 검증
 - 동시성 환경에서 데이터 충돌 처리 확인
+
+## API 명세서 : https://www.notion.so/API-27e4c7d817c680fb989de1f21377dc37
