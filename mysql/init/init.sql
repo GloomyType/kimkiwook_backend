@@ -1,0 +1,4 @@
+-- 기본 DB랑 유저 권한 설정
+CREATE USER IF NOT EXISTS 'myuser'@'%' IDENTIFIED BY 'mypass';
+GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
